@@ -1,4 +1,4 @@
-# astro-payload-cms-loader
+# astro-payload-loader
 
 An Astro integration for loading content from Payload CMS.
 

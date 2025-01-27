@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "declaration": true,
+    "declarationMap": true,
+    "module": "ESNext",
+    "noEmit": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": ["vite/client"],
+    "allowImportingTsExtensions": true,
+    "checkJs": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

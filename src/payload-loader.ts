@@ -42,6 +42,7 @@ export function payloadLoader({
   syncInterval = 60 * 1000,
   depth,
 }: PayloadLoaderOptions): Omit<Loader, "load"> & {
+  // Using 'any' type for context to maintain compatibility with older Astro versions
   load: (context: any) => Promise<void>
 } {
   if (!apiPath?.trim()) {
